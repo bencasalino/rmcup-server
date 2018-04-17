@@ -8,16 +8,16 @@ exports.seed = function(knex, Promise) {
         {id: 1,
           date: 'April 16, 2005',
           home: 'RSL',
-          away: 'COR',
-          score: '1-0',
+          away: 'COL',
+          sCOLe: '1-0',
           series: 'RSL 1-0'
       },
         {
           id: 2,
           date: 'September 21, 2005',
-          home: 'COR',
+          home: 'COL',
           away: 'RSL',
-          score: '2-0',
+          sCOLe: '2-0',
           series: 'Tied 1-1'
         },
         {
@@ -25,7 +25,7 @@ exports.seed = function(knex, Promise) {
           date: 'October 1, 2005',
           home: 'COL',
           away: 'RSL',
-          score: '2-1',
+          sCOLe: '2-1',
           series: 'COL 2-1'
         },
         {
@@ -33,7 +33,7 @@ exports.seed = function(knex, Promise) {
           date: 'October 12, 2005',
           home: 'RSL',
           away: 'COL',
-          score: '0-1',
+          sCOLe: '0-1',
           series: 'COL 3-1'
         },
         {
@@ -41,7 +41,7 @@ exports.seed = function(knex, Promise) {
           date: 'May 27, 2006',
           home: 'RSL',
           away: 'COL',
-          score: '2-2',
+          sCOLe: '2-2',
           series: 'COL 3–1–1'
         },
         {
@@ -49,7 +49,7 @@ exports.seed = function(knex, Promise) {
           date: 'June 9, 2006',
           home: 'COL',
           away: 'RSL',
-          score: '1-0',
+          sCOLe: '1-0',
           series: 'COL 4–1–1'
         },
         {
@@ -57,7 +57,7 @@ exports.seed = function(knex, Promise) {
           date: 'August 9, 2006',
           home: 'COL',
           away: 'RSL',
-          score: '1-4',
+          sCOLe: '1-4',
           series: 'COL 4–2–1'
         },
         {
@@ -65,7 +65,7 @@ exports.seed = function(knex, Promise) {
           date: 'September 2, 2006',
           home: 'RSL',
           away: 'COL',
-          score: '0-1',
+          sCOLe: '0-1',
           series: 'COL 5–2–1'
         },
         {
@@ -73,7 +73,7 @@ exports.seed = function(knex, Promise) {
           date: 'April 30, 2007',
           home: 'RSL',
           away: 'COL',
-          score: '0-2',
+          sCOLe: '0-2',
           series: 'COL 6–2–1'
         },
         {
@@ -81,7 +81,7 @@ exports.seed = function(knex, Promise) {
           date: 'May 10, 2007',
           home: 'COL',
           away: 'RSL',
-          score: '1-1',
+          sCOLe: '1-1',
           series: 'COL 6-2-2'
         },
         {
@@ -89,7 +89,7 @@ exports.seed = function(knex, Promise) {
           date: 'September 22, 2007',
         home: 'RSL',
         away: 'RSL',
-        score: '1-0',
+        sCOLe: '1-0',
           series: 'COL 6–3–2'
         },
         {
@@ -97,7 +97,7 @@ exports.seed = function(knex, Promise) {
           date: 'October 20, 2007',
           home: 'COL',
           away: 'RSL',
-          score: '0-1',
+          sCOLe: '0-1',
           series: 'COL 6–4–2'
         },
         {
@@ -105,7 +105,7 @@ exports.seed = function(knex, Promise) {
           date: 'May 15, 2008',
           home: 'COL',
           away: 'RSL',
-          score: '2-0',
+          sCOLe: '2-0',
           series: 'COL 7-4-2'
         },
         {
@@ -113,7 +113,7 @@ exports.seed = function(knex, Promise) {
           date: 'August 29, 2008',
           home: 'RSL',
           away: 'RSL',
-          score: '2-0',
+          sCOLe: '2-0',
           series: 'COL 7-5-2'
         },
         {
@@ -121,7 +121,7 @@ exports.seed = function(knex, Promise) {
           date: 'October 25, 2008',
           home: 'COL',
           away: 'RSL',
-          score: '1-1',
+          sCOLe: '1-1',
           series: 'COL 7-5-3'
         },
         {
@@ -129,7 +129,7 @@ exports.seed = function(knex, Promise) {
           date: 'October 25, 2008',
           home: 'COL',
           away: 'RSL',
-          score: '2-0',
+          sCOLe: '2-0',
           series: 'COL 8-5-3'
         },
         {
@@ -137,7 +137,7 @@ exports.seed = function(knex, Promise) {
           date: 'June 6, 2009',
           home: 'RSL',
           away: 'COL',
-          score: '1-1',
+          sCOLe: '1-1',
           series: 'COL 8-5-4'
         },
         {
@@ -145,7 +145,7 @@ exports.seed = function(knex, Promise) {
           date: 'October 24, 2009',
           home: 'RSL',
           away: 'RSL',
-          score: '3-0',
+          sCOLe: '3-0',
           series: 'COL 8-6-4'
         },
         {
@@ -153,7 +153,7 @@ exports.seed = function(knex, Promise) {
           date: 'September 25, 2010',
           home: 'RSL',
           away: 'COL',
-          score: '1-1',
+          sCOLe: '1-1',
           series: 'COL 8-6-5'
         },
         {
@@ -161,7 +161,7 @@ exports.seed = function(knex, Promise) {
           date: 'October 23, 2010',
           home: 'COL',
           away: 'RSL',
-          score: '2-2',
+          sCOLe: '2-2',
           series: 'COL 8-6-6'
         },
         {
@@ -169,7 +169,7 @@ exports.seed = function(knex, Promise) {
           date: 'April 13, 2011',
           home: 'RSL',
           away: 'RSL',
-          score: '1-0',
+          sCOLe: '1-0',
           series: 'COL 8-7-6'
         },
         {
@@ -177,7 +177,7 @@ exports.seed = function(knex, Promise) {
           date: 'October 14, 2011',
           home: 'COL',
           away: 'RSL',
-          score: '0-0',
+          sCOLe: '0-0',
           series: 'COL 8-7-7'
         },
         {
@@ -185,7 +185,7 @@ exports.seed = function(knex, Promise) {
           date: 'April 7, 2012',
           home: 'RSL',
           away: 'COL',
-          score: '2-0',
+          sCOLe: '2-0',
           series: 'Tied 8-8-7'
         },
         {
@@ -193,7 +193,7 @@ exports.seed = function(knex, Promise) {
           date: 'July 21, 2012',
           home: 'RSL',
           away: 'RSL',
-          score: '2-0',
+          sCOLe: '2-0',
           series: 'RSL 9-8-7'
         },
         {
@@ -201,7 +201,7 @@ exports.seed = function(knex, Promise) {
           date: 'August 4, 2012',
           home: 'COL',
           away: 'RSL',
-          score: '1-0',
+          sCOLe: '1-0',
           series: 'Tied 9-9-7'
         },
         {
@@ -209,7 +209,7 @@ exports.seed = function(knex, Promise) {
           date: 'March 16, 2013',
           home: 'RSL',
           away: 'COL',
-          score: '1-1',
+          sCOLe: '1-1',
           series: 'Tied 9-9-8'
         },
         {
@@ -217,7 +217,7 @@ exports.seed = function(knex, Promise) {
           date: 'April 6, 2013',
           home: 'COL',
           away: 'RSL',
-          score: '1-0',
+          sCOLe: '1-0',
           series: 'COL 10-9-8'
         },
         {
@@ -225,7 +225,7 @@ exports.seed = function(knex, Promise) {
           date: 'August 3, 2013',
           home: 'COL',
           away: 'RSL',
-          score: '2-2',
+          sCOLe: '2-2',
           series: 'COL 10-9-9'
         },
         {
@@ -233,7 +233,7 @@ exports.seed = function(knex, Promise) {
           date: 'May 17, 2014',
           home: 'RSL',
           away: 'COL',
-          score: '2-1',
+          sCOLe: '2-1',
           series: 'Tied 10-10-9'
         },
         {
@@ -241,7 +241,7 @@ exports.seed = function(knex, Promise) {
           date: 'August 2, 2014',
           home: 'COL',
           away: 'RSL',
-          score: '0-1',
+          sCOLe: '0-1',
           series: 'RSL 11-10-9'
         },
         {
@@ -249,7 +249,7 @@ exports.seed = function(knex, Promise) {
           date: 'September 19, 2014',
           home: 'RSL',
           away: 'COL',
-          score: '5-1',
+          sCOLe: '5-1',
           series: 'RSL 12-11-10'
         },
         {
@@ -257,7 +257,7 @@ exports.seed = function(knex, Promise) {
           date: 'June 7, 2015',
           home: 'RSL',
           away: 'COL',
-          score: '0-0',
+          sCOLe: '0-0',
           series: 'RSL 12-10-10'
         },
         {
@@ -265,7 +265,7 @@ exports.seed = function(knex, Promise) {
           date: 'July 11, 2015',
           home: 'COL',
           away: 'RSL',
-          score: '3-1',
+          sCOLe: '3-1',
           series: 'RSL 12–11–10'
         },
         {
@@ -273,7 +273,7 @@ exports.seed = function(knex, Promise) {
           date: 'October 4, 2015',
           home: 'COL',
           away: 'RSL',
-          score: '1-2',
+          sCOLe: '1-2',
           series: 'RSL 13–11–10'
         },
         {
@@ -281,7 +281,7 @@ exports.seed = function(knex, Promise) {
           date: 'April 9, 2016',
           home: 'RSL',
           away: 'COL',
-          score: '1-0',
+          sCOLe: '1-0',
           series: 'RSL 13-11-10'
         },
         {
@@ -289,7 +289,7 @@ exports.seed = function(knex, Promise) {
           date: 'May 7, 2016',
           home: 'COL',
           away: 'RSL',
-          score: '1-0',
+          sCOLe: '1-0',
           series: 'RSL 14–12–10'
         },
         {
@@ -297,7 +297,7 @@ exports.seed = function(knex, Promise) {
           date: 'August 26, 2016',
           home: 'RSL',
           away: 'COL',
-          score: '2-1',
+          sCOLe: '2-1',
           series: 'RSL 15–12–10'
         },
                 {
@@ -305,7 +305,7 @@ exports.seed = function(knex, Promise) {
                   date: 'April 15, 2017',
           home: 'COL',
           away: 'RSL',
-          score: '1-2',
+          sCOLe: '1-2',
           series: 'RSL 16–12–10'
         },
         {
@@ -313,7 +313,7 @@ exports.seed = function(knex, Promise) {
           date: 'August 26, 2017',
           home: 'RSL',
           away: 'COL',
-          score: '4-1',
+          sCOLe: '4-1',
           series: 'RSL 17–12–10'
         },
         {
@@ -321,7 +321,7 @@ exports.seed = function(knex, Promise) {
           date: 'October 15, 2017',
           home: 'COL',
           away: 'RSL',
-          score: '1-0',
+          sCOLe: '1-0',
           series: 'RSL 17–13–10'
         },
         {
@@ -329,7 +329,7 @@ exports.seed = function(knex, Promise) {
           date: 'April 21, 2018',
           home: 'RSL',
           away: 'COL',
-          score: '',
+          sCOLe: '',
           series: ''
         },
         {
@@ -337,7 +337,7 @@ exports.seed = function(knex, Promise) {
           date: 'July 21, 2018',
           home: 'RSL',
           away: 'COL',
-          score: '',
+          sCOLe: '',
           series: ''
         },
         {
@@ -345,7 +345,7 @@ exports.seed = function(knex, Promise) {
           date: 'August 25, 2018',
           home: 'COL',
           away: 'RSL',
-          score: '',
+          sCOLe: '',
           series: ''
         },
       ]);
