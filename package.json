@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/bencasalino/rmcup-server/issues"
   },
-  "homepage": "https://github.com/bencasalino/rmcup-server#readme"
+  "homepage": "https://github.com/bencasalino/rmcup-server#readme",
+  "dependencies": {
+    "knex": "^0.14.6",
+    "pg": "^7.4.1",
+    "psql": "0.0.1"
+  }
 }
