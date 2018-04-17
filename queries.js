@@ -5,10 +5,10 @@ module.exports = {
     return database(path).select();
   },
   //get
-  read(matches, path) {
+  read(rmcup, path) {
     return database(path)
       .select()
-      .where("matches", matches);
+      .where("rmcup", rmcup);
     // .first();
   },
   // post
@@ -19,16 +19,16 @@ module.exports = {
       .then(record => record[0]);
   },
   // put
-  update(matches, body, path) {
+  update(rmcup, body, path) {
     return database(path)
       .update(body)
-      .where("matches", matches)
+      .where("rmcup", rmcup)
       .returning("*")
       .then(record => record[0]);
   },
-  delete(matches, path) {
+  delete(rmcup, path) {
     return database(path)
       .delete()
-      .where("matches", matches);
+      .where("rmcup", rmcup);
   }
 };
