@@ -1,0 +1,22 @@
+{
+  "name": "rmcup-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bencasalino/rmcup-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bencasalino/rmcup-server/issues"
+  },
+  "homepage": "https://github.com/bencasalino/rmcup-server#readme"
+}
