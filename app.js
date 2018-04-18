@@ -12,12 +12,14 @@ app.use(bodyParser.json());
 // this displays both tables
 app.get("/", (request, response) => {
   queries
-    .list("matches")
-    .then(matches =>
-      queries.list("champions").then(champions =>
+    .list("rmcup")
+    .then(rmcup =>
+      queries.list("rmcup").then(rmcup =>
         response.json({
           matches: matches,
-          champions: champions
+          champions: champions,
+          goals: goals,
+          shutouts: shutouts
         })
       )
     )
@@ -42,11 +44,29 @@ app.get("/champions", (request, response) => {
     })
     .catch(console.error);
 });
+// shows the champions table
+app.get("/goals", (request, response) => {
+  queries
+    .list("goals")
+    .then(rmcup => {
+      response.json({ rmcup });
+    })
+    .catch(console.error);
+});
+// shows the champions table
+app.get("/shutouts", (request, response) => {
+queries
+  .list("shutouts")
+  .then(rmcup => {
+    response.json({ rmcup });
+  })
+  .catch(console.error);
+});
 
 
 
 // gets the matches table by name
-app.get("/matches/:name", (request, response) => {
+app.get("/matches/", (request, response) => {
   queries
     .read(request.params.name, "matches")
     .then(matches => {

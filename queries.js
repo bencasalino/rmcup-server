@@ -5,7 +5,7 @@ module.exports = {
     return database(path).select();
   },
   //get
-  read(matches, path) {
+  read(rmcup, path) {
     return database(path)
       .select()
       .where("matches", matches);
