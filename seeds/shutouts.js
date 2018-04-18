@@ -21,6 +21,62 @@ exports.seed = function (knex, Promise) {
           club: 'COL',
           shutouts: '3'
         },
+        {
+          id: 3,
+          rank: '2',
+          player: 'Joe Cannon',
+          nation: 'USA',
+          club: 'COL',
+          shutouts: '3'
+        },
+        {
+          id: 4,
+          rank: '4',
+          player: 'Clint Irwin',
+          nation: 'USA',
+          club: 'COL',
+          shutouts: '3'
+        },
+        {
+          id: 5,
+          rank: '4',
+          player: 'Bouna Coundoul',
+          nation: 'Senegal',
+          club: 'COL',
+          shutouts: '2'
+        },
+        {
+          id: 6,
+          rank: '6',
+          player: 'Tim Howard',
+          nation: 'USA',
+          club: 'COL',
+          shutouts: '1'
+        },
+        {
+          id: 7,
+          rank: '6',
+          player: 'Zac MacMath',
+          nation: 'USA',
+          club: 'COL',
+          shutouts: '1'
+        },
+        {
+          id: 8,
+          rank: '6',
+          player: 'Byron Foss',
+          nation: 'USA',
+          club: 'COL',
+          shutouts: '1'
+        },
+        {
+          id: 9,
+          rank: '6',
+          player: 'D.J. Countess',
+          nation: 'USA',
+          club: 'COL',
+          shutouts: '1'
+        },
       ]);
     });
 };
