@@ -111,10 +111,10 @@ exports.seed = function(knex, Promise) {
         }, {
           id: 14,
           year: '2018',
-          winner: '',
-          loser: '',
-          points: '',
-          series: ''
+          winner: 'null',
+          loser: 'null',
+          points: '0',
+          series: 'null'
         },
 
       ]);
