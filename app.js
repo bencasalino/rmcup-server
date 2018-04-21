@@ -30,7 +30,12 @@ app.use(bodyParser.json());
 //     .catch(console.error);
 // });
 
-
+// database named rm cup
+// four tables
+// matches
+// champions
+// goals
+// stutouts
 
 
 
