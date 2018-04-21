@@ -9,17 +9,31 @@ app.use(cors());
 app.use(bodyParser.json());
 
 
-// this displays both tables
-app.get("/", (request, response) => {
-  queries
-    .list("matches")
-    .then(matches =>
-      response.json({
-        matches: matches
-      })
-    )
-    .catch(console.error);
-});
+// app.get("/", (request, response) => {
+//   queries
+//     .list("matches")
+//     .then(matches =>
+//       response.json({
+//         matches: matches,
+//       })
+//     )
+//     .catch(console.error);
+// });
+// app.get("/", (request, response) => {
+//   queries
+//     .list("champions")
+//     .then(champions =>
+//       response.json({
+//         champions: champions,
+//       })
+//     )
+//     .catch(console.error);
+// });
+
+
+
+
+
 // shows the managers table
 app.get("/matches", (request, response) => {
   queries
@@ -27,6 +41,41 @@ app.get("/matches", (request, response) => {
     .then(matches => {
       response.json({
         matches
+      });
+    })
+    .catch(console.error);
+});
+// shows the managers table
+app.get("/champions", (request, response) => {
+  queries
+    .list("champions")
+    .then(champions => {
+      response.json({
+        champions
+      });
+    })
+    .catch(console.error);
+});
+
+// shows the managers table
+app.get("/shutouts", (request, response) => {
+  queries
+    .list("shutouts")
+    .then(shutouts => {
+      response.json({
+        shutouts
+      });
+    })
+    .catch(console.error);
+});
+
+// shows the managers table
+app.get("/goals", (request, response) => {
+  queries
+    .list("goals")
+    .then(goals => {
+      response.json({
+        goals
       });
     })
     .catch(console.error);
